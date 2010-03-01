@@ -13,11 +13,11 @@ Url:           http://pear.horde.org/index.php?package=%{prj}
 Source0:       %{prj}-%{version}.tgz
 BuildArch:     noarch
 Requires(pre): %{_bindir}/pear
+Requires:      php-pear
 Requires:      php-pear-channel-horde
-BuildRequires: horde-framework
 BuildRequires: php-pear
 BuildRequires: php-pear-channel-horde
-BuildRoot:     %{_tmppath}/%{name}-%{version}
+
 
 
 %description
