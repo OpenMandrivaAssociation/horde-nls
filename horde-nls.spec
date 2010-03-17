@@ -5,7 +5,7 @@
 
 Name:          horde-nls
 Version:       0.0.2
-Release:       %mkrel 9
+Release:       %mkrel 10
 Summary:       Localization package
 License:       LGPL
 Group:         Networking/Mail
@@ -14,8 +14,7 @@ Source0:       %{prj}-%{version}.tgz
 BuildArch:     noarch
 Requires(post):php-pear
 Requires(preun):php-pear
-Requires:	php-pear
-Requires(pre): %{_bindir}/pear
+Requires: 	php-pear
 Requires:      php-pear-channel-horde
 BuildRequires: php-pear
 BuildRequires: php-pear-channel-horde
