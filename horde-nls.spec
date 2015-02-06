@@ -5,7 +5,7 @@
 
 Name:          horde-nls
 Version:       0.0.2
-Release:       %mkrel 11
+Release:       12
 Summary:       Localization package
 License:       LGPL
 Group:         Networking/Mail
